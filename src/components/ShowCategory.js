@@ -1,5 +1,5 @@
 import React from 'react';
-import { GifItem } from '../components/GifItem';
+import { GifItem } from '../components';
 import { useFetchGifs } from '../CustomHooks/useFetchGifs';
 
 export const ShowCategory = ({ category }) => {
